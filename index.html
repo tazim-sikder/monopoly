@@ -12,6 +12,7 @@
 	<link rel="icon" type="image/x-icon" href="/images/favicon.png">
 	<script type="text/javascript" src="ai.js"></script>
 	<script type="text/javascript" src="monopoly.js"></script>
+	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 	<link rel="stylesheet" type="text/css" href="styles.css" />
 </head>
 
@@ -304,6 +305,8 @@
 		</tr>
 	</table>
 
+	<div id="playerstats-placeholder"></div>
+	<!---
 	<div id="moneybarwrap">
 		<div id="moneybar">
 			<table id="yeahhh">
@@ -381,7 +384,7 @@
 			</table>
 		</div>
 	</div>
-
+-->
 	<div id="setup">
 		<img src="./images/Reaperopoly-Title.svg" style='height: 170px;' />
 		<div style="margin-bottom: 20px;">
@@ -767,7 +770,13 @@
 
 		ele.addEventListener('mousedown', mouseDownHandler);
 
+
+
+		$(function () {
+			$(" #playerstats-placeholder").load("playerstats.html");
+		});
 	</script>
+	
 </body>
 
 </html>
