@@ -835,8 +835,6 @@ td {
 }
 
 
-
-
 .board-center {
   position: relative;
 }
@@ -854,17 +852,21 @@ td {
 .board-bottom {
   position: relative;
   height: 120px;
+  height: 123px;
   background-position: center;
   color: rgba(96, 1, 1, 0);
 }
 .bottom-card {
   position: absolute;
   height: 122px;
+  height: 126px;
+  height: 128px;
   left: -1.1px;
 }
 .board-top {
   position: relative;
   height: 120px;
+  height: 123px;
   background-position: center;
   transform: rotate(180deg);
   color: rgba(96, 1, 1, 0);
@@ -872,7 +874,10 @@ td {
 .top-card {
   position: absolute;
   height: 122px;
+  height: 126px;
+  height: 128px;
   left: -1.1px;
+  top: -1px;
 }
 .board-corner {
   position: relative;
@@ -883,19 +888,44 @@ td {
 .corner-card {
   position: absolute;
   height: 122px;
+  height: 126px;
+  height: 128px;
   left: -1.1px;
+}
+.board-corner {
+  position: relative;
+  height: 120px;
+  background-position: center;
+  color: rgba(96, 1, 1, 0);
+}
+.the-top2 {
+  left: -.6px;
+  top: -4px;
+}
+.the-top1 {
+  left: -1.95px;
+  top: -4px;
+}
+/* wary */
+.the-bottom {
+  left: -3.5px;
+  height: 128px;
 }
 .board-right {
   position: relative;
   background-position: center;
   color: rgba(96, 1, 1, 0);
   width: 120px;
+  width: 123px;
 }
 .right-card {
   position: absolute;
   height: 122px;
+  height: 126px;
+  height: 128px;
   transform: rotate(-90deg);
-  bottom: -24px;
+  bottom: -27px;
+  left: 24px;
   right: 20px;
 }
 .board-left {
@@ -903,16 +933,20 @@ td {
   background-position: center;
   color: rgba(96, 1, 1, 0);
   width: 120px;
+  width: 123px;
 }
 .left-card {
   position: absolute;
   height: 122px;
+  height: 126px;
+  height: 128px;
   transform: rotate(90deg);
   bottom: -24px;
   right: 24px;
+  top: -28px;
 }
 #board {
-	background-color:#f9ebc1;
+	background-color:#efe9d5;
 }
 #start-btn {
 	background-color: #305bc9;
@@ -951,3 +985,4 @@ td {
 	border-radius: 20px;
 	cursor: pointer;
   }
+ 
