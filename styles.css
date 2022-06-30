@@ -66,6 +66,7 @@ td {
   right: 75px;
   -webkit-user-select: none;
   user-select: none;
+  cursor: move;
 }
 
 #propertystats {
@@ -116,6 +117,7 @@ td {
   padding: 10px;
   display: none;
   background-color: white;
+  cursor: move;
 }
 
 #quickstats {
@@ -986,3 +988,17 @@ td {
 	cursor: pointer;
   }
  
+  #yeahhh {
+    touch-action: none;
+      user-select: none;
+      cursor: move;
+      
+  }
+  #moneybarwrap {
+    cursor: move;
+
+   
+
+    /* Doesn't allow to select the content inside */
+    user-select: none;
+  }

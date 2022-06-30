@@ -3448,3 +3448,7 @@ window.onload = function () {
 
   $("#trade-menu-item").click(game.trade);
 };
+
+
+
+
