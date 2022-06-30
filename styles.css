@@ -64,10 +64,32 @@ td {
   z-index: -1;
   top: 0;
   right: 75px;
+  /*
+  right: 45px;
+  */
   -webkit-user-select: none;
   user-select: none;
-  cursor: move;
 }
+/*
+@media screen and (max-width: 1150px) {
+  #moneybarwrap {
+    position: absolute;
+    min-width: 135px;
+    top: 0px;
+    right: 0px;
+    -webkit-user-select: none;
+    user-select: none;
+  
+    position: relative;
+    min-width: 135px;
+    z-index: -1;
+    top: 0;
+    right: 45%;
+    -webkit-user-select: none;
+    user-select: none;
+  }
+}
+*/
 #propertystats {
   margin-right: 110px;
 }
@@ -987,17 +1009,4 @@ td {
 	cursor: pointer;
   }
  
-  #yeahhh {
-    touch-action: none;
-      user-select: none;
-      cursor: move;
-      
-  }
-  #moneybarwrap {
-    cursor: move;
 
-   
-
-    /* Doesn't allow to select the content inside */
-    user-select: none;
-  }
