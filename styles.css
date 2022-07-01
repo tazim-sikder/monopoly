@@ -4,6 +4,7 @@ body {
   min-width: 1075px;
   background-image: url("./images/background.jpg");
   background-position-x: -400px;
+  transform: scale(.8);
 }
 
 td {
@@ -972,7 +973,11 @@ td {
 	background-color:#efe9d5;
 }
 #start-btn {
+  /*
 	background-color: #305bc9;
+  */
+	background-color: #7e0065;
+
 	color: white;
 	border-radius: 20px;
 	font-size: 18px;
