@@ -48,11 +48,13 @@ td {
   user-select: none;
 }
 
+
 #moneybar table {
   font-weight: bold;
   border-spacing: 1px;
 }
 
+/*
 #moneybarwrap {
   position: absolute;
   min-width: 135px;
@@ -65,12 +67,22 @@ td {
   min-width: 135px;
   z-index: -1;
   top: 0;
-  /*
+
   right: 45px;
-  */
+  
   -webkit-user-select: none;
   user-select: none;
 }
+*/
+#moneybarwrap {
+  position: absolute;
+  min-width: 135px;
+  top: 10px;
+  left: 970px;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
 /*
 @media screen and (max-width: 1150px) {
   #moneybarwrap {
@@ -1016,6 +1028,8 @@ td {
 	color: white;
 	border-radius: 20px;
 	cursor: pointer;
+
+  margin-top: 10px;
   }
  
 
