@@ -4,9 +4,6 @@ body {
   min-width: 1075px;
   background-image: url("./images/background.jpg");
   background-position-x: -400px;
-  /** yeah **/
-  transform: scale(.7);
-  margin-top: 200px;
 }
 
 td {
@@ -30,12 +27,11 @@ td {
   position: absolute;
   left: 0;
   top: 20%;
-  /** yeah **/
-  top: 40%;
-  margin-top: 200px;
   right: 0;
   margin-left: auto;
   margin-right: auto;
+
+
 }
 
 #moneybar {
@@ -69,7 +65,7 @@ td {
   min-width: 135px;
   z-index: -1;
   top: 0;
-  right: 75px;
+  right: 45px;
   /*
   right: 45px;
   */
@@ -978,10 +974,8 @@ td {
 	background-color:#efe9d5;
 }
 #start-btn {
-  /*
-	background-color: #305bc9;
-  */
-	background-color: #7e0065;
+
+  background-color: #6e0707;
 
 	color: white;
 	border-radius: 20px;
@@ -992,10 +986,11 @@ td {
 	cursor: pointer;
   }
   #start-btn:hover {
-	background-color: #5b89ff;
+  background-color: #912020;
+
   }
   #nextbutton {
-	background-color: #305bc9;
+  background-color: #6e0707;
 	color: white;
 	border-radius: 20px;
 	font-size: 13px;
@@ -1004,7 +999,7 @@ td {
 	cursor: pointer;
   }
   #proposetradebutton, #canceltradebutton {
-	background-color: #305bc9;
+  background-color: #6e0707;
 	color: white;
 	border-radius: 20px;
 	font-size: 13px;
@@ -1013,7 +1008,7 @@ td {
 	cursor: pointer;
   }
   #viewstats {
-	background-color: #305bc9;
+  background-color: #6e0707;
 	color: white;
 	border-radius: 20px;
 	cursor: pointer;
