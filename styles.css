@@ -2,14 +2,17 @@ body {
   background: #000000;
   margin: 0px;
   min-width: 1075px;
-  background-image: url("./images/background.jpg");
+  background-image: url("./images/teahub.io-best-skull-wallpaper-1299295.jpg");
+  /*
   background-position-x: -400px;
+  */
 
 
 }
 #board, #control, #popup {
   transform: scale(.85);
 }
+
 td {
   font-size: 12px;
   font-family: arial, sans-serif;
